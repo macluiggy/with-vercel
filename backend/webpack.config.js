@@ -36,7 +36,7 @@ module.exports = {
   },
   plugins: [new webpack.IgnorePlugin({ resourceRegExp: /^pg-native$/ })],
   output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
+    path: path.resolve(__dirname),
   },
 };
